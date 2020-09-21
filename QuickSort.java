@@ -30,7 +30,7 @@ public class QuickSort{
                 int temp = a[pivot];
                 a[pivot] = a[right];
                 a[right] = temp;
-                temp = right;
+                pivot = right;
             }
             while(a[left]<a[pivot] && left!=right)
                 left++;
