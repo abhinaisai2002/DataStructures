@@ -40,12 +40,11 @@ public class QuickSort{
                 a[left] = temp;
                 pivot = left;
             }
-            if(l<pivot)
-                quickSort(a, l, pivot-1);
-            if(pivot < r)
-                quickSort(a, pivot+1, r);
-        }
-
+        }    
+        if(l<pivot)
+            quickSort(a, l, pivot-1);
+        if(pivot < r)
+            quickSort(a, pivot+1, r);
     }
 }
 
