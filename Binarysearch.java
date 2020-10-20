@@ -6,6 +6,7 @@ public class Binarysearch {
 		int[] a = {5,7,43,12,56,434,54,2,8};
 		System.out.println("Enter the element to be searched");
 		int number = input.nextInt();
+		a.sort();
 		int pos = binarySearch(a,number,0,8);
 		if(pos==-1)
 			System.out.println("Element is not found");
