@@ -12,19 +12,7 @@ public class Binarysearch {
 		else
 			System.out.println("Element " + number + " is found at position : "+pos);
 	}
-	public static int binarySearch(int[] a,int number,int lb,int ub){
-		int mid=0;
-		while(lb<=ub){
-			mid = (lb+ub)/2;
-			if(number==a[mid])
-				return mid+1;
-			else if (number<a[mid])
-				ub = mid - 1;
-			else
-				lb = mid + 1;
-		}
-		return -1;
-	}
+	
 
 }
 /* fuck java*/
