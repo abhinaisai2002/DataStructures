@@ -27,3 +27,4 @@ public class Binarysearch {
 	}
 
 }
+/* fuck java*/
